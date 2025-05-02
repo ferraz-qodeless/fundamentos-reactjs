@@ -13,16 +13,19 @@ export function App() {
         <Sidebar />
         <main>
           <Post
+            avatar="https://github.com/ferraz-qodeless.png"
             author="Renato Ferraz"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minima cum repudiandae non eius et sit impedit veniam corporis, commodi laudantium sed quia enim perferendis voluptatibus quos nulla sint laborum."
           />
           <br />
           <Post
+            avatar="https://github.com/ferraz-qodeless.png"
             author="Renato Ferraz"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minima cum repudiandae non eius et sit impedit veniam corporis, commodi laudantium sed quia enim perferendis voluptatibus quos nulla sint laborum."
           />
           <br />
           <Post
+            avatar="https://github.com/ferraz-qodeless.png"
             author="Renato Ferraz"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minima cum repudiandae non eius et sit impedit veniam corporis, commodi laudantium sed quia enim perferendis voluptatibus quos nulla sint laborum."
           />
