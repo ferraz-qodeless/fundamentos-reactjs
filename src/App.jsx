@@ -1,15 +1,19 @@
-import { Post } from "./Post";
+import { Header } from './components/Header/Header';
+import { Post } from './Post'
+
+import './global.css';
 
 export function App() {
   return (
-    < div>
-      <h1>App</h1>
+    <div>
+      <Header />
       <Post
-        autor="João"
-        content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Eius natus nisi assumenda possimus beatae omnis iure distinctio, 
-          amet tempore quae corrupti totam, ad illum cumque perferendis eos 
-          voluptate dignissimos id."
+        author="Diego Fernandes"
+        content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque quas corporis beatae veritatis, reprehenderit asperiores vitae quod possimus qui dignissimos unde deleniti consequatur quae, repellat debitis sunt, est rerum!"
+      />
+      <Post
+        author="Gabriel Buzzi"
+        content="Um novo post muito legal"
       />
     </div>
   )
